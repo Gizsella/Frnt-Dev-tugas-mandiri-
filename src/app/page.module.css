@@ -1,0 +1,141 @@
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.back{
+  background-color: #fff;
+  color: #000;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.navbarleft a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbarright ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarright li {
+  margin: 0 10px;
+}
+
+.navbarright li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbarright li a:hover {
+  color: #ccc;
+}
+
+.hero {
+  background-image: url("../asset/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herocontent {
+  text-align: center;
+}
+
+.herocontent h1 {
+  font-size: 48px;
+  color: #fff;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+.look{
+  padding: 100px;
+  text-align: center;
+}
+
+.cardcontainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cardlabelcity{
+  position: absolute;
+  top: 5px;
+  padding: 7px;
+  color: rgb(96, 110, 107);
+  font-weight: bolder;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.cardlabelrating{
+  position: absolute;
+  top: 45px;
+  padding: 5px;
+  color: rgb(96, 110, 107);
+  font-weight: bolder;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px;
+}
+
+.card h2 {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  /* background-color: #f2f2f2; */
+  padding: 20px 0;
+  display: 'flex';
+  text-align: center;
+}
